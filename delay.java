@@ -7,6 +7,6 @@ public class delay {
             Thread.sleep(1000); // Wait for 1 second
             seconds--; // Decrement the counter
         }
-        System.out.println("Time's up!");
+     
     }
 }
