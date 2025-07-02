@@ -11,9 +11,9 @@ import java.util.Scanner;
 public class eoq {
     public static void main(String[] args) {  
         Scanner sc = new Scanner(System.in);
-        double a_d_m = sc.nextDouble();
-        double c_m_p = sc.nextDouble();
-        double c_s_p = sc.nextDouble();
+        double a_d_m = sc.nextDouble();//annual demand in units
+        double c_m_p = sc.nextDouble(); //cost per unit
+        double c_s_p = sc.nextDouble();//cost of storing per unit per year
         double eoq = Math.sqrt(2 * a_d_m * c_m_p / c_s_p);
         System.out.println(eoq);
         // EOQ with 10% increase in cost per unit and 10% decrease in storing cost
