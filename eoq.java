@@ -1,3 +1,11 @@
+// EOQ is the optimal quantity of stock (or inventory) that a company should order each time to minimize the combined costs of:
+
+// Ordering costs (costs associated with placing and receiving an order)
+
+// Holding costs (costs of storing unsold inventory)
+
+
+
 import java.util.Scanner;
 
 public class eoq {
