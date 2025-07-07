@@ -1,11 +1,13 @@
-//Generate a small code in hospital management system to differentiate parameter and argument in 
+//Generate a small code in hospital management system to differentiate parameter and argument  
 package Day3;
+
+import java.util.Scanner;
 
 public class Scenario_1 {
     public static void main(String[] args) {
-        String patientName = "John Doe";
-        int patientAge = 30;
-
+        Scanner sc = new Scanner(System.in);
+        String patientName = sc.nextLine();
+        int patientAge = sc.nextInt();
         // Call the method with parameters
         registerPatient(patientName, patientAge);
     }
@@ -19,3 +21,5 @@ public class Scenario_1 {
     }
     
 }
+// This code demonstrates the difference between parameters and arguments in a method.
+
