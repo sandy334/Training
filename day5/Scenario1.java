@@ -8,6 +8,8 @@ public class Scenario1 {
         for (int i = 0; i < type1.length; i++) {
             double result = type1[i] + type2[i];
             System.out.print(result + " ");
+
         }
     }
 }
+// Output: Resulting Medicinal Combinations: 4.9 5.27 3.88 5.07 5.68
