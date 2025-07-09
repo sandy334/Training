@@ -33,6 +33,6 @@ public class scenario1 {
     // Method to check if a character is a consonant
     private static boolean isConsonant(char ch) {
         return Character.isLetter(ch) &&
-               "bcdfghjklmnpqrstvwxyzBCDFGHJKLMNPQRSTVWXYZ".indexOf(ch) >= 0;
+               "bcdfghjklmnpqrstvwxyzBCDFGHJKLMNPQRSTVWXYZ".indexOf(ch) >= 0;//consonants
     }
 }
