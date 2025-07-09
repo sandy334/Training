@@ -6,7 +6,7 @@ import java.util.*;
 
 public class scenario1 {
     public static void main(String[] args) {
-        Stack<Character> stack = new Stack<>();
+        Stack<Character> stack = new Stack<>();//define the data type in <>
         String input = "Hello World"; // Example input string
 
         // Push non-consonants onto the stack
