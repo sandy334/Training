@@ -2,7 +2,7 @@
 import java.util.LinkedList;
 import java.util.Queue;
 import java.util.Scanner;
-public class Scenario1 {
+public class scenario1 {
     public static void main(String[] args) {
         Queue<String> messageQueue = new LinkedList<>();
         Scanner scanner = new Scanner(System.in);
