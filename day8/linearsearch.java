@@ -22,3 +22,7 @@ public class linearsearch {
         }
     }
 }
+// This code implements a linear search algorithm in Java.
+// It searches for a target element in an array and returns its index if found, or -1 if not found.
+// The main method demonstrates the usage of the linearSearch method with a sample array and target value.
+// The linear search algorithm has a time complexity of O(n), where n is the number of elements in the array.
